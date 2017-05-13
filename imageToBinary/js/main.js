@@ -14,4 +14,3 @@ $('button#export').on('click', function () {
     console.log(res.toString());
     $('#output').val('{' + res.toString() + '}');
 });
-
